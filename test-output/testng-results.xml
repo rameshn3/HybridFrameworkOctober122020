@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LinkedinSuite" duration-ms="67052" started-at="2020-10-03T07:17:40 IST" finished-at="2020-10-03T07:18:47 IST">
+    <groups>
+    </groups>
+    <test name="LinkedinTest" duration-ms="67052" started-at="2020-10-03T07:17:40 IST" finished-at="2020-10-03T07:18:47 IST">
+      <class name="com.qa.linkedin.testcases.SearchDDTest">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.qa.linkedin.testcases.SearchDDTest@71248c21]" name="launchApplication" is-config="true" duration-ms="13300" started-at="2020-10-03T07:17:27 IST" finished-at="2020-10-03T07:17:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="objectSetup()[pri:0, instance:com.qa.linkedin.testcases.SearchDDTest@71248c21]" name="objectSetup" is-config="true" duration-ms="192" started-at="2020-10-03T07:17:40 IST" finished-at="2020-10-03T07:17:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectSetup -->
+        <test-method status="PASS" signature="LoginSetup()[pri:0, instance:com.qa.linkedin.testcases.SearchDDTest@71248c21]" name="LoginSetup" is-config="true" duration-ms="8080" started-at="2020-10-03T07:17:40 IST" finished-at="2020-10-03T07:17:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcases.SearchDDTest@71248c21]" name="searchTest" duration-ms="22021" started-at="2020-10-03T07:17:51 IST" data-provider="getData" finished-at="2020-10-03T07:18:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Roja]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcases.SearchDDTest@71248c21]" name="searchTest" duration-ms="11020" started-at="2020-10-03T07:18:13 IST" data-provider="getData" finished-at="2020-10-03T07:18:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[srikanth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcases.SearchDDTest@71248c21]" name="searchTest" duration-ms="9236" started-at="2020-10-03T07:18:25 IST" data-provider="getData" finished-at="2020-10-03T07:18:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhanu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcases.SearchDDTest@71248c21]" name="searchTest" duration-ms="8574" started-at="2020-10-03T07:18:34 IST" data-provider="getData" finished-at="2020-10-03T07:18:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shilpa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.linkedin.testcases.SearchDDTest@71248c21]" name="afterClass" is-config="true" duration-ms="4895" started-at="2020-10-03T07:18:42 IST" finished-at="2020-10-03T07:18:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.linkedin.testcases.SearchDDTest@71248c21]" name="quitBrowser" is-config="true" duration-ms="6373" started-at="2020-10-03T07:18:49 IST" finished-at="2020-10-03T07:18:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.qa.linkedin.testcases.SearchDDTest -->
+    </test> <!-- LinkedinTest -->
+  </suite> <!-- LinkedinSuite -->
+</testng-results>
